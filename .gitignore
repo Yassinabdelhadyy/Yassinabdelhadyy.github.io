@@ -1,1 +1,6 @@
-.vscode
+**/.vscode
+rmdstyle/
+**/temp
+**/.env
+**/.RData
+**/.Rhistory

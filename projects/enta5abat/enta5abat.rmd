@@ -1,0 +1,51 @@
+---	
+title: 'Enta5abat'	
+subtitle: "Online Elections"	
+author: "Yassin Abdelhady"	
+output:
+  html_document: 
+    css: ../rmdstyle/style.css
+    theme: cosmo
+---	
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,fig.align = 'center',out.width="70%",warning=FALSE,comment = NA,knitr.table.format = "simple")
+```
+
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(position = c('top', 'right'))
+```
+
+
+<a href="http://reso.great-site.net/"  target="_blank" ><img src="images/enta5abatlogo.png" ></a>
+
+
+
+
+Online elections have always been a concept for people, but no one tried to do it, it was like a 
+myth. This document is to prove and execute the online election system, starting by universities 
+and Sporting clubs till the presidential election. This process will be taken step by step so when 
+we reach the presidential elections the system will be secured as much as we can. The owners of 
+this company are 4 passionate people that seek the innovation and improvement of their country. 
+Our company will enable more voters to vote due to the accessibility of the system and the easy 
+user interface. Our service will be based on the organization needs and the capacity with different 
+pricing bundles that will be convenient to each and every one. Our mission is to increase the 
+number of voters to ensure the right candidate is the perfect one chosen, besides we want to make 
+our elections system more secure and prevent corruption with the help of blockchain. We have no 
+competitors right now except the traditional elections system, so we have a great chance in 
+penetrating the market in s short amount of time. Our marketing plan and strategies will be mostly 
+based on B2B presentations and meetings. Our organizational plan focuses on creating the perfect 
+team mix that collaborate in implementing and operating the program, we aim to follow a 
+paternalistic management style which perfectly fits the size of our company and focus on the main 
+vision and mission. Showing other prove of how the company has a great potential, the financial 
+statements states we will reach our break-even point within the first year. Also, the growth plan 
+emphasis the promising future that the company will have when it reaches all its targeted customers 
+within the first 3 to 4 years of its launch.
+
+
+
+<footer class = "footer">
+Last edit <br>
+`r Sys.Date()`
+</footer>

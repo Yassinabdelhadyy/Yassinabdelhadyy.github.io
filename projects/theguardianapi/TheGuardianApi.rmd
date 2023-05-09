@@ -1,0 +1,52 @@
+---	
+title: 'The Guardian API'	
+author: "Yassin Abdelhady"	
+output:
+  html_document: 
+    css: ../rmdstyle/style.css
+    theme: cosmo
+---	
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,fig.align = 'center',out.width="70%",warning=FALSE,comment = NA)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(position = c('top', 'right'))
+```
+
+<a href="https://github.com/Yassinabdelhadyy/theguardian" class="icon brands fa-github" target="_blank" >Source Code</a>
+<!-- <i class="fa fa-github" style="font-size:24px"><a href="https://github.com/Yassinabdelhadyy/theguardian" class="icon brands fa-github" target="_blank" ></i>
+<button style="font-size:24px">Button <i class="fa fa-github"></i></button>
+<ul class="icons">
+<li><a href="https://github.com/Yassinabdelhadyy/theguardian" class="icon brands fa-github" target="_blank" ><span class="label">Source Code</span></a></li>
+</ul> -->
+
+This project originated from a course on Data Harvesting during my master's degree, which focused on creating a web scraping R script. 
+However, upon careful consideration, I realized that many of my classmates would also need to scrape newspaper articles for their thesis. 
+As a result, I decided to make their lives easier by developing a package that interfaces smoothly with The Guardian API. 
+This package can be easily installed using ***devtools::install_github("Yassinabdelhadyy/theguardian")*** 
+
+This package is build on 2 concepts
+
+1- To retrive the data that the API Provides
+
+2- API data + the article body, tags, and author name.
+
+<br><br>
+```{r}
+# install.packages("devtools")
+# devtools::install_github("Yassinabdelhadyy/theguardian")
+# 
+# 
+# library(theguardian)
+# ?theguardian
+```
+
+
+<footer class = "footer">
+Last edit <br> `r Sys.Date()`
+</footer>
