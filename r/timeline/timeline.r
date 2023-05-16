@@ -6,7 +6,7 @@ library(ggpubr)
 this_year <- as.numeric(format(Sys.Date(), "%Y"))
 textdir <- 0.06
 arrowdir <- 0.04
-since <- 2014
+since <- 2017
 
 edu <- data.frame(
     event = c("Hello world", "School", "High School", "Bachelor Degree", "Master's Degree")
@@ -116,4 +116,4 @@ mutate(Time_line = ifelse(Time_line>1,Time_line+0.01,Time_line-0.01))
 
 final_plot <- plot_timeline(p_all,p_all_group)
 
-ggsave("timeline.png",plot = final_plot, dpi=300, dev='png')#, height=4.5, width=6.5, units="in")
+ggsave("timeline.png",plot = final_plot, dpi=400, dev='png')#, height=4.5, width=6.5, units="in")
